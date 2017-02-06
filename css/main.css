@@ -1,0 +1,127 @@
+/*** sectioning elements ***/
+
+body {
+  background-color: #fff;
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+ text-align: center;
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+
+/**** content styles ***/
+
+h1 {
+  text-align: ;
+  font-size: 20px;
+}
+
+h2 {
+  text-align:;
+}
+
+h3 {
+  text-align:;
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-align: center;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+iframe {
+  height: 458px;
+}
+/*** image styles ***/
+
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+
+/*** link styles ***/
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+
+
+
+/*===========================================================
+  Odin override
+  ========================================================*/
