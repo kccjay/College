@@ -1,7 +1,8 @@
 /*** sectioning elements ***/
 
 body {
-  background-color: #fff;
+  background-color: #FFF;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 header {
@@ -38,7 +39,7 @@ aside {
 
 h1 {
   text-align: ;
-  font-size: 20px;
+  font-size: 50px;
 }
 
 h2 {
@@ -46,11 +47,13 @@ h2 {
 }
 
 h3 {
-  text-align:;
+  text-align: left;
+  font-size: 30px;
 }
 
 h4 {
-
+  text-align: right;
+  font-size: 30px;
 }
 
 h5 {
@@ -63,7 +66,7 @@ h6 {
 
 p {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  text-align: center;
+  text-align: justify;
 }
 
 blockquote {
@@ -75,32 +78,77 @@ ol {
 }
 
 
-table {
-
-}
-
-tr {
-
-}
-
 th {
-
+    background-color: #db7843;
+    color: white;
+    padding: 7px;
 }
 
 td {
+  text-align: center;
+  padding: 7px;
+}
 
+table {
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {background-color: #8f5c45}
+
+
+@media (max-width: 600px) {
+  table {
+      width: 100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    border: 1px solid #AAAAAA;
+    display: block;
+    margin: 7px 0;
+  }
+
+  td {
+    display: block;
+    text-align: right;
+  }
+
+  td:before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: bold;
+  }
 }
 
 iframe {
   height: 458px;
 }
+
+
 /*** image styles ***/
+img {
+  max-width: 100%;
+}
 
 img.center {
   display: block;
   margin: 0 auto;
 }
 
+img.left {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+img.right {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
 /*** link styles ***/
 
 a:link {
@@ -118,7 +166,6 @@ a:hover {
 a:active {
 
 }
-
 
 
 
