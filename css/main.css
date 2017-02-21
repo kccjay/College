@@ -19,7 +19,7 @@ main {
 }
 
 footer {
- text-align: center;
+ text-align: ;
 }
 
 nav {
@@ -43,8 +43,13 @@ aside {
 /**** content styles ***/
 
 h1 {
-  text-align: ;
+  text-align: center;
   font-size: 50px;
+}
+
+h1.font {
+  font-size: 30px;
+  text-align: center;
 }
 
 h2 {
@@ -66,7 +71,8 @@ h5 {
 }
 
 h6 {
-  font-size: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 
 p {
@@ -84,6 +90,14 @@ ol {
 
 hr {
   width: 200px;
+}
+
+hr.line{
+  width: 600px;
+}
+
+hr.line2 {
+  text-align: left;
 }
 
 th {
