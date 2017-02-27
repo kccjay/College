@@ -37,9 +37,10 @@ aside {
 .dark {
   background-color: #e4002b;
   color: #fff;
-  padding-left: 100px;
+  padding-left: ;
   padding-top: 40px;
   padding-bottom: 40px;
+  text-align: center;
 }
 
 .light {
@@ -83,8 +84,8 @@ h5 {
 }
 
 h6 {
-  font-size: 30px;
   text-align: center;
+  color: #fff;
 }
 
 p {
@@ -92,10 +93,9 @@ p {
   text-align: justify;
 }
 
-p.para {
-  text-align: right;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 13px;
+.para {
+  font-size: 10px;
+  text-align: center;
 }
 
 blockquote {
@@ -202,6 +202,7 @@ a:link, a:visited {
 
 a.link:link, a.link:visited {
   color: #fff;
+  text-align: center;
 }
 
 a:link {
