@@ -63,7 +63,7 @@ h1 {
 h1.font {
   text-align: center;
   font-size: 30px;
-  color: #fff;
+  color: #000;
 }
 
 h2 {
@@ -102,12 +102,21 @@ p {
   text-align: center;
 }
 
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
 blockquote {
 
 }
 
 ol {
 
+}
+
+ul {
+  list-style: none;
 }
 
 hr {
@@ -122,8 +131,12 @@ hr.line2 {
   text-align: left;
 }
 
+hr.line3 {
+  width: 600px;
+}
+
 th {
-    background-color: #db7843;
+    background-color: #e4002b;
     color: white;
     padding: 7px;
 }
@@ -137,7 +150,9 @@ table {
   border-collapse: collapse;
 }
 
-tr:nth-child(even) {background-color: #8f5c45}
+tr:nth-child(even) {background-color: #333}
+tr:nth-child(odd) {background-color: #d9d9d9}
+tr:nth-child(even) {color: #fff}
 
 
 @media (max-width: 600px) {
@@ -284,5 +299,14 @@ button.center {
 .navbar li a:hover {
    color: #e4002b;
    font-size: ;
-   font-weight: bold;
+   font-weight: ;
+}
+
+.navbar-slideout .navbar-menu,
+.navbar-slideout-xs .navbar-menu,
+.navbar-slideout-sm .navbar-menu,
+.navbar-slideout-md .navbar-menu,
+.navbar-slideout-lg .navbar-menu,
+.navbar-slideout-xl .navbar-menu {
+  background-color: #ebd1d1;
 }
