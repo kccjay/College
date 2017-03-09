@@ -128,7 +128,7 @@ hr.line{
 }
 
 hr.line2 {
-  text-align: left;
+  width: 300px;
 }
 
 hr.line3 {
@@ -146,6 +146,12 @@ td {
   padding: 7px;
 }
 
+td.top {
+    text-align: Left;
+    vertical-align: top;
+    padding: 7px;
+}
+
 table {
   border-collapse: collapse;
 }
@@ -153,6 +159,8 @@ table {
 tr:nth-child(even) {background-color: #333}
 tr:nth-child(odd) {background-color: #d9d9d9}
 tr:nth-child(even) {color: #fff}
+tr:nth-child(even).bc {background-color: #d9d9d9}
+tr:nth-child(even).bc {color: #000}
 
 
 @media (max-width: 600px) {
@@ -309,4 +317,8 @@ button.center {
 .navbar-slideout-lg .navbar-menu,
 .navbar-slideout-xl .navbar-menu {
   background-color: #ebd1d1;
+}
+
+.menu-toggle {
+  font-size: 30px;
 }
