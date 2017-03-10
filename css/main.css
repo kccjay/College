@@ -36,7 +36,7 @@ aside {
 }
 
 .dark {
-  background-color: #e4002b;
+  background-color: #990033;
   color: #fff;
   padding-left: ;
   padding-top: 40px;
@@ -45,7 +45,7 @@ aside {
 }
 
 .light {
-  background-color: #e4002b;
+  background-color: #990033;
   color: #fff;
   padding-left: 15px;
   padding-top: 15px;
@@ -136,7 +136,7 @@ hr.line3 {
 }
 
 th {
-    background-color: #e4002b;
+    background-color: #990033;
     color: white;
     padding: 7px;
 }
@@ -248,14 +248,17 @@ a:active {
 
 }
 
-.button-secondary {
+.button-primary {
   font-family: "Copperplate Gothic Light", sans-serif;
-  color: #e4002b;
+  color: #fff;
+  border-radius: 35px;
+  background-color: #666633;
+
 }
 
-.button-secondary:hover {
+.button-primary:hover {
  background-color: #fff;
- border: 1px solid #e4002b;
+ border: 2px solid #666633;
  color: #000;
 }
 
@@ -305,7 +308,7 @@ button.center {
 }
 
 .navbar li a:hover {
-   color: #e4002b;
+   color: #990033;
    font-size: ;
    font-weight: ;
 }
